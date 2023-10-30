@@ -1,0 +1,24 @@
+.homeMCard{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+.homeMCard-content {
+    display: flex;
+    align-items: center;
+}
+
+.homeMCard-title{
+    font-size: 1.4em;
+    margin: 0 6px;
+    color: white;
+}
+
+.homeMCard-desc{
+   color: #cecece;
+   margin: 10px 0;
+   width: 80%;
+   font-size: 17.3px;
+   line-height: 1.35em;
+}

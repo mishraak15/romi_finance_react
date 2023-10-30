@@ -1,0 +1,51 @@
+.homeLCard{
+    padding: 1em 1.5em;
+    border: 1px solid hsla(0, 0%, 100%, 0.151);
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 0.5rem 1.3rem rgba(0,0,0,.5215686274509804);
+    background-color: #151515;
+}
+
+.homeLCard div img{
+    margin-right: 6px;
+    width: 45px;
+}
+
+.homeLCard-img-container{
+    display: flex;
+    align-items: center;
+}
+
+.homeLCard-title{
+    font-size: 1.5em;
+}
+
+.homeLCard-desc{
+    margin: 1em 0;
+    font-size: 17px;
+    line-height: 1.5em;
+    width: 90%;
+}
+
+.homeLCard-value{
+    font-size: 15px;
+    color:#cecece ;
+}
+
+.homeLCard-btn-container{
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    margin: 1.3em 0 5px 0;
+}
+
+.homeLCard-btn{
+    padding: 9px 1.2em;
+    background: transparent;
+    border: 1px solid hsla(0,0%,100%,0.1607843137254902);
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}

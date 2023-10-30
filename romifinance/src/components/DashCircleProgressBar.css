@@ -1,0 +1,33 @@
+.progrssbar {
+  width: 70%;
+  margin: auto;
+  position: relative;
+}
+
+.circular-bar:hover {
+  filter: drop-shadow(rgba(5, 152, 250, 0.7) 0px 0px 6px);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.circular-bar-hidden-data{
+    position: absolute;
+    display: none;
+    bottom: 20px;
+    left: 0;
+    background-color: black;
+    padding: 7px;
+    border-radius: 5px;
+    z-index: 3;
+    font-size: 15px;
+}
+
+.progrssbar:hover  .circular-bar-hidden-data{
+  display: flex;
+}
+
+.progrssbar-title {
+  position: absolute;
+  top: 75px;
+  left: 43px;
+}

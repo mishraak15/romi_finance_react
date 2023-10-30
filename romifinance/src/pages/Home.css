@@ -1,0 +1,51 @@
+.home-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.home-top,.home-mid,.home-last{
+    padding: 3em 5em;
+    padding-bottom:1em ;
+}
+
+.home-head{
+    font-size: 3.5em;
+    font-weight: bold;
+    line-height: 1.4em;
+    color: white;
+}
+
+.home-desc{
+    font-size: 1.2em;
+    color: #cecece;
+    margin-bottom: 1.6em;
+    width: 30%;
+    line-height: 1.35em;
+}
+
+.home-scard-container,.home-mcard-container{
+    display: flex;
+    align-items: center;
+    margin: 4em 0;
+    gap: 1.5em;
+}
+
+.hrline{
+    height: 1px;
+    background-color:  hsla(0, 0%, 100%, 0.151);
+}
+
+
+.home-last h2{
+    font-size: 2.5em;
+    color: white;
+    width: 30%;
+}
+
+.home-lcard-container{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin: 1.8em 0 3em 0;
+}
+

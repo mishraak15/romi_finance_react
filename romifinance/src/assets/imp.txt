@@ -1,0 +1,6 @@
+bg-color :#3eb489   (light-green)
+bg-color :#207a59    (dark-green)
+
+color :#a7a7a9 (light-grey)
+
+app background : #383838 (black)

@@ -1,0 +1,39 @@
+.refferals {
+  padding: 4em;
+  padding-bottom: 2em;
+}
+
+.refferals h2 {
+  font-size: 2.3em;
+  margin: 10px 0;
+}
+
+.refferals-btn-cointainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2em 0;
+}
+
+.refferals-btn-cointainer .flex {
+  align-items: center;
+  justify-content: center;
+  background-color: #272930;
+  border-radius: 4px;
+  color: hsla(0, 0%, 100%, 0.7);
+}
+
+.refferal-clicked {
+  background-color: #3eb489;
+}
+
+.refferal-type-item {
+  padding: 10px 1em;
+  font-size: 14.5px;
+  letter-spacing: 0.7px;
+}
+
+.refferal-type-item:hover{
+    background-color: #207a59;
+    cursor: pointer;
+}

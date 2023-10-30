@@ -1,0 +1,166 @@
+.dashboard ,.earn{
+  padding: 4em;
+}
+
+.dash-top-head {
+  display: flex;
+  gap: 6px;
+}
+
+.dash-top-head h2 {
+  font-size: 2.3em;
+  margin: 10px 0;
+}
+
+.dash-top-desc {
+  color: #b7b7bd;
+  line-height: 1.6em;
+}
+
+.dash-top-container,
+.dash-mid-container {
+  display: flex;
+  gap: 12px;
+  margin: 2em 0;
+}
+
+.flex-j-sb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 7px 1em;
+}
+
+.dash-top-first-card,
+.dash-top-second-card,
+.dash-mid-first-card,
+.dash-mid-second-card {
+  border: 1px solid #4d4d4e;
+  border-radius: 4px;
+  width: 50%;
+  padding-bottom: 8px;
+  min-height: auto;
+  background-color: #151515;
+}
+
+.flex{
+  display: flex;
+}
+
+.dash-overview {
+  border-bottom: 1px solid #4d4d4e;
+  padding: 1em;
+  margin-bottom: 10px;
+}
+
+.dash-card-label {
+  color: hsla(0, 0%, 100%, 0.7);
+  font-size: 15.5px;
+}
+
+.dash-mid-top {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  position: relative;
+}
+
+.dash-mid-top img {
+  width: 40px;
+}
+
+.dash-mid-top-subhead {
+  font-size: 13px;
+  color: #a9a9b0;
+}
+
+.dash-mid-left {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.dash-mid-first-hidden {
+  position: absolute;
+  left: 120px;
+  border: 1px solid #32344c;
+  border-radius: 4px;
+  background: #191919;
+  display: flex;
+  flex-direction: column;
+  top: 35px;
+  text-wrap: nowrap;
+  z-index: 2;
+}
+
+.dash-mid-hidden-single {
+  display: flex;
+  gap: 6px;
+  padding: 8px;
+}
+
+.dash-mid-hidden-single:hover {
+  background-color: #4d4d4e;
+}
+
+.dash-mid-hidden-single img {
+  width: 20px;
+}
+
+.dash-mid-hidden-single a {
+  color: #a0a3c4;
+  font-size: 15px;
+}
+
+.eather-relative {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  bottom: 15px;
+  left: 30px;
+}
+
+.dash-last {
+  border: 1px solid #4d4d4e;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  background-color: #151515;
+}
+
+.dash-last-top{
+    display: flex;
+    align-items: center;
+}
+
+.dash-last-top img {
+  margin-left: 6px;
+}
+
+.dash-last-single-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+}
+
+.dash-last-top-head{
+    display: grid;
+    grid-template-columns: 2fr 1.5fr 1.5fr 2fr 1fr;
+    align-items: center;
+    margin: 10px 1em;
+}
+
+.dash-last-single-row-left{
+    display: flex;
+    gap: 9px;
+    position: relative;
+}
+
+.dash-mid-right{
+  width: 40%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: right;
+  color: white;
+}
+

@@ -1,0 +1,113 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 6px 2px;
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.062745098);
+  background: transparent;
+  box-shadow: 1px 4px 8px hsla(0, 0%, 7%, 0.534);
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.nav-left span {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6em;
+  letter-spacing: 2px;
+}
+
+.nav-left img {
+  width: 50px;
+  border: 1px solid #383838;
+  border-radius: 50%;
+  margin: 0 3px;
+}
+
+.nav-item {
+  color: #a7a7a9;
+  font-size: 15px;
+  line-height: 10px;
+}
+
+.nav-item:hover{
+    color: white;
+    transition: all 0.2s;
+}
+
+.btn{
+    border: none;
+    background-color: #3eb489;
+    padding: 9px 1.2em;
+    font-size: 14px;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.btn:hover{
+    background-color: #207a59 ;
+    cursor: pointer;
+}
+
+.nav-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: 1px solid hsla(0,0%,100%,0.1607843137254902);
+    border-radius: 4px;
+    padding: 6px 1.1em;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-btn span{
+    font-size: 14px;
+    margin-left: 9px;
+}
+
+.nav-btn:hover,.homeLCard-btn:hover{
+    background-color: hsla(0,0%,93.3%,0.0784313725490196);
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5px;
+    padding: 5px 0.9em;
+}
+
+.seperator{
+    background-color: hsla(0,0%,100%,0.1607843137254902);
+    width: 1px;
+    height: 20px;
+    margin-left: 4px;
+}
+
+.nav-nft-dropdown{
+  position: absolute;
+  display:none ;
+  flex-direction: column;
+  gap: 2em;
+  width: 150px;
+  padding: 2em 1em;
+  background-color: #191919;
+  box-shadow: 0 4px 12px #0e0e0e;
+  border-radius: 12px;
+  z-index: 5;
+}
+
+.nav-nft:hover + .nav-nft-dropdown{
+  display: flex;
+}
+
+.nav-nft-dropdown:hover{
+display: flex;
+}

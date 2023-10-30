@@ -1,0 +1,26 @@
+.earn h2 {
+  font-size: 2.3em;
+  margin: 10px 0;
+}
+
+.earn-wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-top: 1.5em;
+}
+
+.earnSecondCard{
+    display: flex;
+    flex-direction: column;
+}
+
+.earn-second-wrapper{
+    margin: 1.5em auto;
+}
+
+.dash-top-desc a{
+    text-decoration: underline;
+    color: #b7b7bd;
+}
